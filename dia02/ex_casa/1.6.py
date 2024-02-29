@@ -10,3 +10,7 @@ minutos = int((segundos_user % 3600)/60)
 segundos = int(segundos_user % 60)
 
 print("O valor que você digitou equivale a: ", horas, "hora(s), ", minutos, "minuto(s) e ", segundos, "segundos.")
+
+print(horas, minutos, segundos, sep=":")
+#sep é uma variável que escolhe o que vai dividir os elementos da string
+# %%
